@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -a1p | sort | tr '\n' ','
+ls -Ap | grep -v '^$' | grep -v '^\.\/$' | sort -d -k1.1,1.1 -k1.2n -k1.3,1.999 | tr '\n' ','
