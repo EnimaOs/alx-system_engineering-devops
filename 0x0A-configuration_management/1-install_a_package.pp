@@ -1,4 +1,4 @@
-# install_flask.pp
+#!/usr/bin/pup
 
 # Include the stdlib module for package management
 include stdlib
